@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_pedidos"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.moviles.domiciliosmoviles.PedidosActivity"
+    tools:showIn="@layout/activity_pedidos">
+
+    <EditText
+        android:id="@+id/nombre_cliente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/client_name"
+        android:inputType="textPersonName"
+        android:text="Nombre del cliente" />
+
+    <EditText
+        android:id="@+id/lugar_pedido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/order_place"
+        android:inputType="textPersonName"
+        android:text="Lugar de envío" />
+
+    <Button
+        android:id="@+id/payment_method"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Seleccionar método de pago" />
+
+    <Button
+        android:id="@+id/pedir_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Realizar Pedido" />
+
+    <fragment
+        android:name="com.moviles.domiciliosmoviles.fragments.PropinaFragment"
+        android:id="@+id/fragment_propina"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/gps_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dar Ubicacion" />
+
+    <Button
+        android:id="@+id/image_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Seleccionar Imagen" />
+
+    <TextView
+        android:id="@+id/location_txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView" />
+
+    <ImageView
+        android:id="@+id/client_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        android:name="com.google.android.gms.maps.MapFragment"
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/marker32"
+        />
+    <RelativeLayout android:layout_width="match_parent"
+        android:layout_height="match_parent" android:gravity="bottom">
+        <Button
+            android:textAllCaps="false"
+            android:text="@string/select_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/select_location_btn"
+            android:textColor="#ffffff"
+            android:backgroundTint="@color/colorAccent"/>
+    </RelativeLayout>
+</RelativeLayout>

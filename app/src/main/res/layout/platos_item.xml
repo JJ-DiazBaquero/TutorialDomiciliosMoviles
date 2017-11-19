@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/thumbnail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="5dip"
+        android:padding="3dip"
+        android:layout_alignParentStart="true">
+
+        <ImageView
+            android:id="@+id/imagen_plato"
+            android:layout_width="50dip"
+            android:layout_height="50dip"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_weight="0.18" />
+
+        <TextView
+            android:id="@+id/nombre_plato"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignTop="@+id/thumbnail"
+            android:layout_centerVertical="true"
+            android:layout_weight="2.38"
+            android:textColor="#202020"
+            android:textSize="15dip"
+            android:textStyle="bold"
+            android:typeface="sans" />
+
+        <ImageView
+            android:id="@+id/share_item"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.18"
+            app:srcCompat="@drawable/icons_share" />
+
+        <TextView
+            android:id="@+id/precio_plato"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dip"
+            android:layout_weight="0.79"
+            android:gravity="right"
+            android:textColor="@color/colorPrimary"
+            android:textSize="10dip"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</RelativeLayout>

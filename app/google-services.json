@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "81742227965",
+    "firebase_url": "https://domiciliosmoviles-471e4.firebaseio.com",
+    "project_id": "domiciliosmoviles-471e4",
+    "storage_bucket": "domiciliosmoviles-471e4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:81742227965:android:1ddbcab23b52a1b9",
+        "android_client_info": {
+          "package_name": "com.moviles.domiciliosmoviles"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "81742227965-t4md6kkuqkuka6j9t5fdf67u31no8uk6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.moviles.domiciliosmoviles",
+            "certificate_hash": "b73511b8595bede64d821fc79c726df36f1da9ed"
+          }
+        },
+        {
+          "client_id": "81742227965-srlur9ph8482oonr3hmsg693a4no7ucc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8yMTg-f7fIyx2GpwuubuNBTZBchPsb1s"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "81742227965-srlur9ph8482oonr3hmsg693a4no7ucc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
